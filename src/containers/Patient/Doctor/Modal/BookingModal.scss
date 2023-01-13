@@ -1,0 +1,54 @@
+.booking-modal-container {
+    .booking-modal-content {
+        height: 100%;
+
+        .booking-modal-header {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+
+            .left {
+                font-size: 15px;
+                font-weight: 600;
+                color: #333;
+            }
+
+            .right {
+                float: right;
+                cursor: pointer;
+            }
+        }
+
+        .booking-modal-body {
+            padding: 10px 10px;
+            height: 100%;
+        }
+
+        .booking-modal-footer {
+            border-top: 1px solid #ddd;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+
+            button {
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 5px 8px;
+            }
+
+            .btn-booking-confirm {
+                background-color: #fff04b;
+                color: black;
+                font-weight: 600;
+            }
+
+            .btn-booking-cancel {
+                padding: 5px 8px;
+                color: black;
+                font-weight: 600;
+            }
+        }
+    }
+}
